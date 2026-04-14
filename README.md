@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI_Agents-2026-purple?style=flat-square" alt="AI Agents 2026">
-  <img src="https://img.shields.io/badge/Azure_AI_Foundry-0078D4?style=flat-square&logo=microsoft" alt="Azure AI Foundry">
+  <img src="https://img.shields.io/badge/Microsoft_AI_Foundry-0078D4?style=flat-square&logo=microsoft" alt="Azure AI Foundry">
   <img src="https://img.shields.io/badge/GitHub_Copilot_CLI-000?style=flat-square&logo=github" alt="GitHub Copilot CLI">
   <img src="https://img.shields.io/badge/Semantic_Kernel-512BD4?style=flat-square" alt="Semantic Kernel">
   <img src="https://img.shields.io/badge/MCP_Protocol-00A67E?style=flat-square" alt="MCP">
