@@ -132,5 +132,5 @@ This project is licensed under the [MIT License](LICENSE).
 ---
 
 <p align="center">
-  <em>Written with assistance from GitHub Copilot CLI (Claude Opus 4.6) — an agent writing about agents.</em>
+  <em>All guides are written from personal experience and may need adjustments for your specific environment.</em>
 </p>
