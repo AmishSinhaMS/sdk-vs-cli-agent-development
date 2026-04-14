@@ -305,12 +305,10 @@ Start with the CLI. Graduate to the SDK. Keep both in your workflow.
 | Microsoft Foundry Agent Service | [learn.microsoft.com/azure/ai-services/agents](https://learn.microsoft.com/azure/ai-services/agents/) |
 | Semantic Kernel | [github.com/microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) |
 | AutoGen | [github.com/microsoft/autogen](https://github.com/microsoft/autogen) |
-| LangGraph | [github.com/langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) |
 | GitHub Copilot CLI | [docs.github.com/copilot](https://docs.github.com/copilot/concepts/agents/about-copilot-cli) |
 | Claude Code | [docs.anthropic.com/claude-code](https://docs.anthropic.com/en/docs/agents-and-tools/claude-code/overview) |
 | Model Context Protocol | [modelcontextprotocol.io](https://modelcontextprotocol.io/) |
 | Skills for Fabric (CLI Plugin) | [github.com/microsoft/skills-for-fabric](https://github.com/microsoft/skills-for-fabric) |
-| Power BI Agentic Development | [github.com/data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development) |
 | Microsoft Foundry Agent Samples | [github.com/Azure-Samples/ai-foundry-agents-samples](https://github.com/Azure-Samples/ai-foundry-agents-samples) |
 | Microsoft AI Decision Framework | [github.com/microsoft/Microsoft-AI-Decision-Framework](https://github.com/microsoft/Microsoft-AI-Decision-Framework) |
 
