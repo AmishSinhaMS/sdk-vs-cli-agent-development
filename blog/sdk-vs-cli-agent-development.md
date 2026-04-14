@@ -39,7 +39,7 @@ These are fundamentally different activities, and they call for different toolin
 With an SDK, you author the agent's logic in code. You define the models, tools, orchestration patterns, and deployment infrastructure. The result is a deployable service.
 
 ```python
-# Azure AI Foundry Agent Service — Python SDK
+# Microsoft Foundry Agent Service — Python SDK
 from azure.ai.projects import AIProjectClient
 
 client = AIProjectClient.from_connection_string(conn_str)
@@ -120,7 +120,7 @@ Use an SDK when you are **building an agent that other people will use** — a p
 
 | Framework | Maintainer | Primary Language | Key Strength |
 |-----------|-----------|-----------------|-------------|
-| [Azure AI Foundry Agent Service](https://learn.microsoft.com/azure/ai-services/agents/) | Microsoft | Python, C# | Managed hosting, enterprise connections, MCP support |
+| [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/ai-services/agents/) | Microsoft | Python, C# | Managed hosting, enterprise connections, MCP support |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft | .NET, Python, Java | Enterprise orchestration with planners and plugins |
 | [AutoGen](https://github.com/microsoft/autogen) | Microsoft | Python | Multi-agent conversation patterns |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | LangChain | Python, JavaScript | Stateful agent graphs with persistence |
@@ -184,7 +184,7 @@ The most effective teams don't choose between SDK and CLI — they use CLI agent
 ┌──────────────────────────────────────────────────────────────┐
 │  Phase 3: Deploy & Scale (SDK)                               │
 │                                                              │
-│  • Agent runs in Azure AI Foundry / Container Apps           │
+│  • Agent runs in Microsoft Foundry / Container Apps           │
 │  • Serves users via API, Teams bot, or embedded UI           │
 │  • Scales horizontally with managed infrastructure           │
 │  • Monitored via Foundry observability and App Insights      │
@@ -249,7 +249,7 @@ MCP defines a standard interface for tools that AI agents can call. An MCP serve
 
 **Why this matters:**
 
-- **Build once, use everywhere.** A custom MCP server for your internal APIs works with both SDK agents (Azure AI Foundry supports MCP natively) and CLI agents (Copilot CLI and Claude Code both support MCP).
+- **Build once, use everywhere.** A custom MCP server for your internal APIs works with both SDK agents (Microsoft Foundry supports MCP natively) and CLI agents (Copilot CLI and Claude Code both support MCP).
 - **Decouples tools from agents.** Your tool logic doesn't depend on a specific framework. Switch from Semantic Kernel to LangGraph? Your MCP servers still work.
 - **Community ecosystem.** The growing library of open-source MCP servers means less custom tool code for common integrations.
 
@@ -266,7 +266,7 @@ Teams typically evolve through these stages:
 | **1. Prompting** | Using ChatGPT/Copilot Chat for one-off questions | Browser / IDE chat |
 | **2. CLI Agents** | Using terminal agents for multi-step developer tasks | Copilot CLI, Claude Code |
 | **3. SDK Prototypes** | Building simple agents with frameworks | Semantic Kernel, LangGraph |
-| **4. Production Agents** | Deploying scaled agent services | Azure AI Foundry, managed infra |
+| **4. Production Agents** | Deploying scaled agent services | Microsoft Foundry, managed infra |
 | **5. Agent Platforms** | Multi-agent systems with governance and observability | Foundry + MCP + enterprise policies |
 
 Most teams in 2026 are between stages 2 and 3. The compound pattern (CLI + SDK) is the fastest path from 2 to 4.
@@ -302,7 +302,7 @@ Start with the CLI. Graduate to the SDK. Keep both in your workflow.
 
 | Resource | Link |
 |----------|------|
-| Azure AI Foundry Agent Service | [learn.microsoft.com/azure/ai-services/agents](https://learn.microsoft.com/azure/ai-services/agents/) |
+| Microsoft Foundry Agent Service | [learn.microsoft.com/azure/ai-services/agents](https://learn.microsoft.com/azure/ai-services/agents/) |
 | Semantic Kernel | [github.com/microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel) |
 | AutoGen | [github.com/microsoft/autogen](https://github.com/microsoft/autogen) |
 | LangGraph | [github.com/langchain-ai/langgraph](https://github.com/langchain-ai/langgraph) |
@@ -311,7 +311,7 @@ Start with the CLI. Graduate to the SDK. Keep both in your workflow.
 | Model Context Protocol | [modelcontextprotocol.io](https://modelcontextprotocol.io/) |
 | Skills for Fabric (CLI Plugin) | [github.com/microsoft/skills-for-fabric](https://github.com/microsoft/skills-for-fabric) |
 | Power BI Agentic Development | [github.com/data-goblin/power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development) |
-| Azure AI Foundry Agent Samples | [github.com/Azure-Samples/ai-foundry-agents-samples](https://github.com/Azure-Samples/ai-foundry-agents-samples) |
+| Microsoft Foundry Agent Samples | [github.com/Azure-Samples/ai-foundry-agents-samples](https://github.com/Azure-Samples/ai-foundry-agents-samples) |
 | Microsoft AI Decision Framework | [github.com/microsoft/Microsoft-AI-Decision-Framework](https://github.com/microsoft/Microsoft-AI-Decision-Framework) |
 
 ---

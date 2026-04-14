@@ -12,7 +12,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/AI_Agents-2026-purple?style=flat-square" alt="AI Agents 2026">
-  <img src="https://img.shields.io/badge/Azure_AI_Foundry-0078D4?style=flat-square&logo=microsoft" alt="Azure AI Foundry">
+  <img src="https://img.shields.io/badge/Microsoft_Foundry-0078D4?style=flat-square&logo=microsoft" alt="Microsoft Foundry">
   <img src="https://img.shields.io/badge/GitHub_Copilot_CLI-000?style=flat-square&logo=github" alt="GitHub Copilot CLI">
   <img src="https://img.shields.io/badge/Semantic_Kernel-512BD4?style=flat-square" alt="Semantic Kernel">
   <img src="https://img.shields.io/badge/MCP_Protocol-00A67E?style=flat-square" alt="MCP">
@@ -44,7 +44,7 @@ This repository contains a deep-dive technical blog post that breaks down the tr
 ## 🎯 Who Is This For?
 
 - **Platform engineers** evaluating agent infrastructure strategies
-- **Application developers** building AI-powered products with Azure AI Foundry, Semantic Kernel, or LangGraph
+- **Application developers** building AI-powered products with Microsoft Foundry, Semantic Kernel, or LangGraph
 - **Data engineers & analysts** using CLI agents (Copilot CLI, Claude Code) for Fabric, Power BI, and data workflows
 - **Engineering leaders** making build-vs-buy decisions for agent capabilities
 - **Anyone curious** about where agentic AI development is heading
@@ -65,7 +65,7 @@ This repository contains a deep-dive technical blog post that breaks down the tr
 
 | Approach | Best For | Example Tools |
 |----------|----------|---------------|
-| **SDK** | Production agent services (chatbots, pipelines, voice agents) | Azure AI Foundry, Semantic Kernel, LangGraph, AutoGen |
+| **SDK** | Production agent services (chatbots, pipelines, voice agents) | Microsoft Foundry, Semantic Kernel, LangGraph, AutoGen |
 | **CLI** | Developer productivity (infra setup, code gen, data engineering) | GitHub Copilot CLI, Claude Code |
 | **MCP** | Bridge between both — reusable tool layer | Model Context Protocol servers |
 
@@ -94,7 +94,7 @@ This repository contains a deep-dive technical blog post that breaks down the tr
 
 | Framework | Maintainer | Language | Focus |
 |-----------|-----------|----------|-------|
-| [Azure AI Foundry Agent Service](https://learn.microsoft.com/azure/ai-services/agents/) | Microsoft | Python, C# | Managed agent hosting with MCP |
+| [Microsoft Foundry Agent Service](https://learn.microsoft.com/azure/ai-services/agents/) | Microsoft | Python, C# | Managed agent hosting with MCP |
 | [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | Microsoft | .NET, Python, Java | Enterprise agent orchestration |
 | [AutoGen](https://github.com/microsoft/autogen) | Microsoft | Python | Multi-agent conversation patterns |
 | [LangGraph](https://github.com/langchain-ai/langgraph) | LangChain | Python, JS | Stateful agent graphs |
