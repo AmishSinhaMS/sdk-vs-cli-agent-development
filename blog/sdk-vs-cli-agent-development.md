@@ -316,6 +316,6 @@ Start with the CLI. Graduate to the SDK. Keep both in your workflow.
 
 ---
 
-*This post was written with assistance from GitHub Copilot CLI, powered by Claude Opus 4.6 — an agent writing about agents.*
+*All guides are written from personal experience and may need adjustments for your specific environment.*
 
 *Last updated: April 2026*
