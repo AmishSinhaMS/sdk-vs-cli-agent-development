@@ -112,7 +112,6 @@ This repository contains a deep-dive technical blog post that breaks down the tr
 | Plugin | Focus | Skills |
 |--------|-------|--------|
 | [skills-for-fabric](https://github.com/microsoft/skills-for-fabric) | Microsoft Fabric | 30+ skills |
-| [power-bi-agentic-development](https://github.com/data-goblin/power-bi-agentic-development) | Power BI | 6 plugins |
 | [databricks-agent-skills](https://github.com/databricks/databricks-agent-skills) | Databricks | 7 skills |
 
 ---
